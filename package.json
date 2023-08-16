@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev:pre": "rimraf ./build",
     "dev": "tsc-watch --onSuccess 'node ./build/index.js'",
     "start": "npm run build && node build/index.js",
     "build": "rimraf ./build && tsc",
@@ -13,7 +14,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "commander": "11.0.0"
+  },
   "devDependencies": {
+    "@fast-csv/parse": "4.3.6",
     "@types/node": "20.5.0",
     "@typescript-eslint/eslint-plugin": "6.4.0",
     "@typescript-eslint/parser": "6.4.0",

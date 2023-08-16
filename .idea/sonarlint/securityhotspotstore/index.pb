@@ -1,9 +1,0 @@
-
-=
-tsconfig.json,6/1/61ebb9fd6e8cf9082658121d5d81e297791dacd0
-=
-.eslintignore,8/8/88939cd7e826eac4f61dd9adac091b9d64277287
-;
-.prettierrc,2/0/20137a9e94744624390b6748bc96df5ca1579b71
-9
-	.eslintrc,4/b/4be5f5e3cea171c304090be92469b2f2cb51039a
